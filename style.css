@@ -18,7 +18,7 @@ PC      960px a víc
 
 
 .container {
-	padding: 50px;
+	/* padding: 50px; */
 	text-align: center;
 }
 
@@ -50,7 +50,7 @@ p {
 	}
 
 	.title {
-		flex: 1 0 100%
+		flex: 1 0 100%;
 	}
 
 	.card {
@@ -64,7 +64,8 @@ p {
 	}
 
 	.photo img {
-		max-width: 100%;
+		height: 100px;
+		width: 100px;
 	}
 
 	.description {
